@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Circular", "Arial", sans-serif;
+}
+
+
+@font-face {
+  font-family: Circular;
+  src: url("./components/fonts/FedraSansAltPro-Book.woff") format("woff"),
+    url("./components/fonts/FedraSansAltPro-Book.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("./components/fonts/FedraSansAltPro-Medium.woff") format("woff"),
+    url("./components/fonts/FedraSansAltPro-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("./components/fonts/FedraSansPro-Light.woff") format("woff"),
+    url("./components/fonts/FedraSansPro-Light.ttf") format("truetype");
+  font-weight: lighter;
+}
