@@ -7,7 +7,9 @@ class Promo extends Component {
       <section className="promo">
         <div className="promo__container">
           <div className="logo">
-            <img src={logo} className="promo__logo" alt="logo" />
+            <a href="/">
+              <img src={logo} className="promo__logo" alt="logo" />
+            </a>
           </div>
           <h1 className="promo__title">Где лучшее кино? Друзья подскажут!</h1>
           <p className="promo__text">
