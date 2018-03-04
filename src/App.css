@@ -38,6 +38,16 @@
   justify-content: space-between;
   flex-direction: column;
 }
+
+.footer-main__container {
+  width: 270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
 .promo__title {
   width: 260px;
   margin-top: 90px;
@@ -136,11 +146,40 @@
 .btn-buy:hover {
   background: #ffd700;
 }
-
 .btn-buy:active {
   box-shadow: none;
 }
 
+.footer-main {
+  background: #151515;
+}
+
+.footer-main__logo {
+  width: 41px;
+  height: 41px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.footer-main__text {
+  text-align: center;
+  margin: 0;
+  margin-top: 13px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.footer-main__text--opacity {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 32px;
+  color: rgba(255,255,255,0.60);
+}
+
+.footer-main__text--opacity a {
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.60);
+}
 @media (min-width: 768px) {
   .promo {
     background-image: url('components/img/promo.jpg');
@@ -153,6 +192,11 @@
   }
   .service__container {
     width: 560px;
+  }
+  .footer-main__container {
+    width: 560px;
+    align-items: stretch;
+    flex-direction: row;
   }
   .promo__title {
     width: 429px;
@@ -222,6 +266,9 @@
     line-height: 32px;
     color: rgba(0,0,0,0.60);
   }
+  .footer-main__text {
+    text-align: left;
+  }
 }
 
 
@@ -233,6 +280,9 @@
     width: 860px;
   }
   .service__container {
+    width: 860px;
+  }
+  .footer-main__container {
     width: 860px;
   }
   .promo__title {
@@ -257,6 +307,9 @@
   .reason-item__text {
     font-size: 14px;
     line-height: 22px;
+  }
+  .service {
+    height: 408px;
   }
   .condition {
     float: left;
