@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Promo from './components/promo/promo';
 import Reason from './components/reason/reason';
+import Service from './components/service/service';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <Promo/>
         <Reason/>
+        <Service/>
       </div>
     );
   }
